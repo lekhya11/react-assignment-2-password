@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+}
+
+.logo {
+  align-self: flex-start;
+  height: 80px;
+  width: 150px;
+}
+.add-password-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.add-input {
+  background-color: #454f84;
+  width: 50%;
+  padding: 15px;
+  border-radius: 10px;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.project-image {
+  height: 500px;
+}
+.enter-input {
+  height: 65px;
+  width: 90%;
+  padding: 9px;
+}
+.icon-container {
+  height: 65px;
+  width: 15%;
+  padding: 9px;
+  background-color: white;
+  text-align: center;
+}
+.icon {
+  height: 45px;
+  width: 45px;
+}
+.input-div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  background-color: blueviolet;
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 10px;
+}
+
+.button-right {
+  text-align: right;
+}
+
+.pass-search-con {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 90%;
+}
+
+.password-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.search-container {
+  display: flex;
+  background-color: white;
+}
+
+.search-icon {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  padding: 5px;
+  border-right: 1px solid #c3caea;
+}
+.icon-search {
+  height: 35px;
+  width: 35px;
+}
+.search-input {
+  height: 45px;
+  width: 150px;
+  border: none;
+}
+
+.password-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.hr-line {
+  color: #ffffff;
+  width: 100%;
+}
+
+.password-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.no-found {
+  height: auto;
+  width: 40%;
+}
+
+.number {
+  border-radius: 9px;
+  border: 1px solid #c3caea;
+  height: 20px;
+  width: 40px;
+
+  text-align: center;
+  color: #ffffff;
+  margin: 9px;
+  background-color: transparent;
+}
+.heading-number {
+  display: flex;
+}
+.checkbox-input {
+  height: 18px;
+  width: 18px;
+  background-color: #c3caea;
+  border: none;
+  color: #5763a5;
+}
+
+.label {
+  font-size: medium;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.show-pass {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+}
