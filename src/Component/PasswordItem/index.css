@@ -1,0 +1,95 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.mini-container {
+  border: 2px solid #b6c3ca;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  list-style-type: none;
+}
+
+.name-logo {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dis-names {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 8px;
+  margin-right: 9px;
+}
+
+.button-delete {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+.image {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+
+.name {
+  font-size: medium;
+  font-weight: 500;
+  color: white;
+  font-family: 'Roboto';
+  margin-bottom: 3px;
+}
+
+.website {
+  font-weight: 500;
+  color: white;
+  font-family: 'Roboto';
+  font-size: larger;
+  margin-bottom: 3px;
+}
+
+.pwd {
+  color: aliceblue;
+}
+
+.stars-image {
+  color: white;
+  width: 150px;
+}

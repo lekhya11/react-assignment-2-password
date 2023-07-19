@@ -34,8 +34,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin-bottom: 20px;
+  margin-top: 15px;
 }
 .add-input {
   background-color: #454f84;
@@ -131,7 +132,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -142,13 +143,32 @@ body {
 
 .password-display {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
+
+.passwordList-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  height: 250px;
+  width: 500px;
+}
+
 .no-found {
   height: auto;
   width: 40%;
+}
+
+.no-pwd {
+  color: #ffffff;
+  font-size: larger;
+  font-weight: 600;
+  font-family: 'Roboto';
 }
 
 .number {
